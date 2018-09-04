@@ -1,0 +1,18 @@
+Title	Authors	File
+A Crowdsourced Experiment for Tempo Estimation of Electronic Dance Music	Hendrik Schreiber, Meinard Müller	220_Paper.pdf
+Computational Corpus Analysis: A Case Study on Jazz Solos	Christof Weiss, Stefan Balke, Jakob Abesser, Meinard Müller	23_Paper.pdf
+Controlled Vocabularies for Music Metadata	Pasquale Lisena, Konstantin Todorov, Cécile Cecconi, Françoise Leresche, Isabelle Canno, Frédéric Puyrenier, Martine Voisin, Thierry Le Meur, Raphaël Troncy	68_Paper.pdf
+DALI: a large Dataset of synchronized Audio, LyrIcs and notes, automatically created using teacher-student machine learning paradigm.	Gabriel Meseguer-Brocal, Alice Cohen-Hadria, Geoffroy Peeters	35_Paper.pdf
+OpenMIC-2018: An open data-set for multiple instrument recognition	Eric Humphrey, Simon Durand, Brian McFee	248_Paper.pdf
+From Labeled to Unlabeled Data – On the Data Challenge in Automatic Drum Transcription	Chih-Wei Wu, Alexander Lerch	185_Paper.pdf
+GuitarSet: A Dataset for Guitar Transcription	Qingyang Xi, Rachel Bittner, Johan Pauwels, Xuzhou Ye, Juan Pablo Bello	188_Paper.pdf
+Musical-Linguistic Annotations of Il Lauro Secco	Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Bjoern Schuller	11_Paper.pdf
+VocalSet: A Singing Voice Dataset	Julia Wilkins, Prem Seetharaman, Alison Wahl, Bryan Pardo	114_Paper.pdf
+The NES Music Database: A multi-instrumental dataset with expressive performance attributes	Chris Donahue, Huanru Henry Mao, Julian McAuley	265_Paper.pdf
+Audio-Aligned Jazz Harmony Dataset for Automatic Chord Transcription and Corpus-based Research	Vsevolod Eremenko, Emir Demirel, Baris Bozkurt, Xavier Serra	206_Paper.pdf
+Methodologies for Creating Symbolic Corpora of Western Music Before 1600	Julie Cumming, Cory McKay, Jonathan Stuchbery, Ichiro Fujinaga	46_Paper.pdf
+Precision of Sung Notes in Carnatic Music	Venkata Viraraghavan, Rangarajan Aravind, Hema Murthy	120_Paper.pdf
+Revisiting Singing Voice Detection: A quantitative review and the future outlook	Kyungyun Lee, Keunwoo Choi, Juhan Nam	38_Paper.pdf
+Vocals in Music Matter: the Relevance of Vocals in the Minds of Listeners	Andrew Demetriou, Andreas Jansson, Aparna Kumar, Rachel Bittner	98_Paper.pdf
+Vocal melody extraction with semantic segmentation and audio-symbolic domain transfer learning	Wei Tsung Lu, Li Su	286_Paper.pdf
+Empirically Weighting the Importance of Decision Factors for Singing Preference	Michael Barone, Karim Ibrahim, Chitralekha Gupta, Ye Wang	117_Paper.pdf

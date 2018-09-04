@@ -1,0 +1,6 @@
+session-1	Session A: Musical objects	1
+session-2	Session B: Generation, visual	2
+session-3	Session C: Source separation, symbolic, emotion	3
+session-4	Session D: Corpora and voice	4
+session-5	Session E: Timbre, tagging, similarity, patterns and alignment	5
+session-6	Session F: Machine and human learning of music	6

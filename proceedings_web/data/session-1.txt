@@ -1,0 +1,19 @@
+Title	Authors	File
+A Confidence Measure For Key Labelling	Roman B. Gebhardt, Michael Stein, Athanasios Lykartsis	72_Paper.pdf
+Improved Chord Recognition by Combining Duration and Harmonic Language Models	Filip Korzeniowski, Gerhard Widmer	300_Paper.pdf
+Using musical relationships between chord labels in Automatic Chord Extraction tasks	Tristan Carsault, Jerome Nika, Philippe Esling	231_Paper.pdf
+A Predictive Model for Music based on Learned Interval Representations	Stefan Lattner, Maarten Grachten, Gerhard Widmer	179_Paper.pdf
+An End-to-end Framework for Audio-to-Score Music Transcription on Monophonic Excerpts	Miguel A. Román, Antonio Pertusa, Jorge Calvo-Zaragoza	87_Paper.pdf
+Evaluating Automatic Polyphonic Music Transcription	Andrew McLeod, Mark Steedman	148_Paper.pdf
+Onsets and Frames: Dual-Objective Piano Transcription	Curtis Hawthorne, Erich Elsen, Jialin Song, Adam Roberts, Ian Simon, Colin Raffel, Jesse Engel, Sageev Oore, Douglas Eck	19_Paper.pdf
+Player Vs Transcriber: A Game Approach To Data Manipulation For Automatic Drum Transcription	Carl Southall, Ryan Stables, Jason Hockman	24_Paper.pdf
+A Flexible Approach to Automated Harmonic Analysis: Multiple Annotations of Chorales by Bach and Prætorius	Nathaniel Condit-Schultz, Yaolong Ju, Ichiro Fujinaga	283_Paper.pdf
+Evaluating a collection of Sound-Tracing Data of Melodic Phrases	Tejaswinee Kelkar, Udit Roy, Alexander Refsum Jensenius	209_Paper.pdf
+Main Melody Estimation with Source-Filter NMF and CRNN	Dogac Basaran, Slim Essid, Geoffroy Peeters	273_Paper.pdf
+Functional Harmony Recognition of Symbolic music data with Multi-task Recurrent Neural Networks	Tsung-Ping Chen, Li Su	178_Paper.pdf
+A single-step approach to musical tempo estimation using a convolutional neural network	Hendrik Schreiber, Meinard Müller	141_Paper.pdf
+Analysis of Common Design Choices in Deep Learning Systems for Downbeat Tracking	Magdalena Fuentes, Brian McFee, Hélène C. Crayencour, Slim Essid, Juan Pablo Bello	203_Paper.pdf
+Meter Detection and Alignment of MIDI Performance	Andrew McLeod, Mark Steedman	136_Paper.pdf
+A Timbre-based Approach to Estimate Key Velocity from Polyphonic Piano Recordings	Dasaem Jeong, Taegyun Kwon, Juhan Nam	196_Paper.pdf
+Timbre Discrimination for Brief Instrument Sounds	Francesco Bigoni, Sofia Dahl	249_Paper.pdf
+Frame-level Instrument Recognition by Timbre and Pitch	Yun-Ning Hung, Yi-Hsuan Yang	55_Paper.pdf

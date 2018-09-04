@@ -1,0 +1,104 @@
+A Confidence Measure For Key Labelling	Roman B. Gebhardt, Michael Stein and Athanasios Lykartsis	72	session-1
+Improved Chord Recognition by Combining Duration and Harmonic Language Models	Filip Korzeniowski and Gerhard Widmer	300	session-1
+Using musical relationships between chord labels in Automatic Chord Extraction tasks	Tristan Carsault, Jerome Nika and Philippe Esling	231	session-1
+A Predictive Model for Music based on Learned Interval Representations	Stefan Lattner, Maarten Grachten and Gerhard Widmer	179	session-1
+An End-to-end Framework for Audio-to-Score Music Transcription on Monophonic Excerpts	Miguel A. Román, Antonio Pertusa and Jorge Calvo-Zaragoza	87	session-1
+Evaluating Automatic Polyphonic Music Transcription	Andrew McLeod and Mark Steedman	148	session-1
+Onsets and Frames: Dual-Objective Piano Transcription	Curtis Hawthorne, Erich Elsen, Jialin Song, Adam Roberts, Ian Simon, Colin Raffel, Jesse Engel, Sageev Oore and Douglas Eck	19	session-1
+Player Vs Transcriber: A Game Approach To Data Manipulation For Automatic Drum Transcription	Carl Southall, Ryan Stables and Jason Hockman	24	session-1
+A Flexible Approach to Automated Harmonic Analysis: Multiple Annotations of Chorales by Bach and Prætorius	Nathaniel Condit-Schultz, Yaolong Ju and Ichiro Fujinaga	283	session-1
+Evaluating a collection of Sound-Tracing Data of Melodic Phrases	Tejaswinee Kelkar, Udit Roy and Alexander Refsum Jensenius	209	session-1
+Main Melody Estimation with Source-Filter NMF and CRNN	Dogac Basaran, Slim Essid and Geoffroy Peeters	273	session-1
+Functional Harmony Recognition of Symbolic music data with Multi-task Recurrent Neural Networks	Tsung-Ping Chen and Li Su	178	session-1
+A single-step approach to musical tempo estimation using a convolutional neural network	Hendrik Schreiber and Meinard Müller	141	session-1
+Analysis of Common Design Choices in Deep Learning Systems for Downbeat Tracking	Magdalena Fuentes, Brian McFee, Hélène C. Crayencour, Slim Essid and Juan Pablo Bello	203	session-1
+Meter Detection and Alignment of MIDI Performance	Andrew McLeod and Mark Steedman	136	session-1
+A Timbre-based Approach to Estimate Key Velocity from Polyphonic Piano Recordings	Dasaem Jeong, Taegyun Kwon and Juhan Nam	196	session-1
+Timbre Discrimination for Brief Instrument Sounds	Francesco Bigoni and Sofia Dahl	249	session-1
+Frame-level Instrument Recognition by Timbre and Pitch	Yun-Ning Hung and Yi-Hsuan Yang	55	session-1
+Interactive Arrangement of Chords and Melodies Based on a Tree-Structured Generative Model	Hiroaki Tsushima, Eita Nakamura, Katsutoshi Itoyama and Kazuyoshi Yoshii	1	session-2
+A Generalized Parsing Framework for Generative Models of Harmonic Syntax	Daniel Harasim, Martin Rohrmeier and Timothy J. O'Donnell	258	session-2
+An energy-based generative sequence model for testing sensory theories of Western harmony	Peter M. C. Harrison and Marcus T. Pearce	215	session-2
+Automatic, Personalized, and Flexible Playlist Generation using Reinforcement Learning	Shun-Yao Shih and Heng-Yu Chi	18	session-2
+Bridging audio analysis, perception and synthesis with perceptually-regularized variational timbre spaces	Philippe Esling, Axel Chemla--Romeu-Santos and Adrien Bitton	219	session-2
+Conditioning Deep Generative Raw Audio Models for Structured Automatic Music	Rachel Manzelli, Vijay Thakkar, Ali Siahkamari and Brian Kulis	192	session-2
+Convolutional Generative Adversarial Networks with Binary Neurons for Polyphonic Music Generation	Hao-Wen Dong and Yi-Hsuan Yang	218	session-2
+Cover Song Synthesis by Analogy	Christopher Tralie	103	session-2
+Part-invariant Model for Music Generation and Harmonization	Yujia Yan, Ethan Lustig, Joseph VanderStel and Zhiyao Duan	293	session-2
+Evaluating language models of tonal harmony	David Sears, Filip Korzeniowski and Gerhard Widmer	262	session-2
+Skeleton plays piano: online generation of pianist body movements from MIDI performance	Bochen Li, Akira Maezawa and Zhiyao Duan	109	session-2
+Towards Full-Pipeline Handwritten OMR with Musical Symbol Detection by U-Nets	Jan Hajič jr., Matthias Dorfer, Gerhard Widmer and Pavel Pecina	175	session-2
+Searching Page-Images of Early Music Scanned with OMR: A Scalable Solution Using Minimal Absent Words	Tim Crawford, Golnaz Badkobeh and David Lewis	210	session-2
+Optical Music Recognition in Mensural Notation with Region-based Convolutional Neural Networks	Alexander Pacha and Jorge Calvo-Zaragoza	32	session-2
+Camera-PrIMuS: Neural End-to-End Optical Music Recognition on Realistic Monophonic Scores	Jorge Calvo-Zaragoza and David Rizo	33	session-2
+Document Analysis of Music Score Images with Selectional Auto-Encoders	Francisco Castellanos, Jorge Calvo-Zaragoza, Gabriel Vigliensoni and Ichiro Fujinaga	93	session-2
+Genre-Agnostic Key Classification With Convolutional Neural Networks	Filip Korzeniowski and Gerhard Widmer	7	session-2
+Deep Watershed Detector for Music Object Recognition	Lukas Tuggener, Ismail Elezi, Jürgen Schmidhuber and Thilo Stadelmann	225	session-2
+Deep neural networks with voice entry estimation heuristics for voice separation in symbolic music representations	Reinier de Valk and Tillman Weyde	304	session-3
+Music Source Separation Using Stacked Hourglass Networks	Sungheon Park, Taehoon Kim, Kyogu Lee and Nojun Kwak	138	session-3
+The Northwestern University Source Separation Library	Ethan Manilow, Prem Seetharaman and Bryan Pardo	37	session-3
+Improving Bass Saliency Estimation using Transfer Learning and Label Propagation	Jakob Abeßer, Stefan Balke and Meinard Müller	143	session-3
+Improving Peak-picking Using Multiple Time-step Loss Functions	Carl Southall, Ryan Stables and Jason Hockman	25	session-3
+Zero-Mean Convolutions for Level-Invariant Singing Voice Detection	Jan Schlüter and Bernhard Lehner	189	session-3
+Music Generation and Transformation with Moment Matching-Scattering Inverse Networks	Mathieu Andreux and Stéphane Mallat	131	session-3
+Wave-U-Net: A Multi-Scale Neural Network for End-to-End Audio Source Separation	Daniel Stoller, Sebastian Ewert and Simon Dixon	205	session-3
+SE and SNL diagrams: Flexible data structures for MIR	Melissa R. McGuirl, Katherine M. Kinnaird, Claire Savard and Erin H. Bugbee	105	session-3
+JSYMBOLIC 2.2: Extracting Features from Symbolic Music for use in Musicological and MIR Research	Cory McKay, Julie Cumming and Ichiro Fujinaga	26	session-3
+Relevance of musical features for cadence detection	Louis Bigo, Laurent Feisthauer, Mathieu Giraud and Florence Levé	243	session-3
+On the Relationships between Music-induced Emotion and Physiological Signals	Xiao Hu, Fanjie Li and Jeremy T. D. Ng	115	session-3
+Music Mood Detection Based on Audio and Lyrics with Deep Neural Net	Rémi Delbouys, Romain Hennequin, Francesco Piccoli, Jimena Royo-Letelier and Manuel Moussallam	99	session-3
+Identifying Emotions in Opera Singing: Implications of Adverse Acoustic Conditions	Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Simone Hantke, Giovanni Costantini, Klaus Scherer and Bjoern Schuller	22	session-3
+Musical Texture and Expressivity Features for Music Emotion Recognition	Renato Panda, Ricardo Malheiro and Rui Pedro Paiva	250	session-3
+Shared generative representation of auditory concepts and EEG to reconstruct perceived and imagined music	André Ofner and Sebastian Stober	101	session-3
+Exploring Musical Relations Using Association Rule Networks	Renan de Padua, Verônica Oliveira de Carvalho, Solange Rezende and Diego Furtado Silva	268	session-3
+A Crowdsourced Experiment for Tempo Estimation of Electronic Dance Music	Hendrik Schreiber and Meinard Müller	220	session-4
+Computational Corpus Analysis: A Case Study on Jazz Solos	Christof Weiss, Stefan Balke, Jakob Abeßer and Meinard Müller	23	session-4
+Controlled Vocabularies for Music Metadata	Pasquale Lisena, Konstantin Todorov, Cécile Cecconi, Françoise Leresche, Isabelle Canno, Frédéric Puyrenier, Martine Voisin, Thierry Le Meur and Raphaël Troncy	68	session-4
+DALI: a large Dataset of synchronized Audio, LyrIcs and notes, automatically created using teacher-student machine learning paradigm.	Gabriel Meseguer-Brocal, Alice Cohen-Hadria and Geoffroy Peeters	35	session-4
+OpenMIC-2018: An open data-set for multiple instrument recognition	Eric Humphrey, Simon Durand and Brian McFee	248	session-4
+From Labeled to Unlabeled Data – On the Data Challenge in Automatic Drum Transcription	Chih-Wei Wu and Alexander Lerch	185	session-4
+GuitarSet: A Dataset for Guitar Transcription	Qingyang Xi, Rachel Bittner, Johan Pauwels, Xuzhou Ye and Juan Pablo Bello	188	session-4
+Musical-Linguistic Annotations of Il Lauro Secco	Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner and Bjoern Schuller	11	session-4
+VocalSet: A Singing Voice Dataset	Julia Wilkins, Prem Seetharaman, Alison Wahl and Bryan Pardo	114	session-4
+The NES Music Database: A multi-instrumental dataset with expressive performance attributes	Chris Donahue, Huanru Henry Mao and Julian McAuley	265	session-4
+Audio-Aligned Jazz Harmony Dataset for Automatic Chord Transcription and Corpus-based Research	Vsevolod Eremenko, Emir Demirel, Baris Bozkurt and Xavier Serra	206	session-4
+Methodologies for Creating Symbolic Corpora of Western Music Before 1600	Julie Cumming, Cory McKay, Jonathan Stuchbery and Ichiro Fujinaga	46	session-4
+Precision of Sung Notes in Carnatic Music	Venkata Viraraghavan, Rangarajan Aravind and Hema Murthy	120	session-4
+Revisiting Singing Voice Detection: A quantitative review and the future outlook	Kyungyun Lee, Keunwoo Choi and Juhan Nam	38	session-4
+Vocals in Music Matter: the Relevance of Vocals in the Minds of Listeners	Andrew Demetriou, Andreas Jansson, Aparna Kumar and Rachel Bittner	98	session-4
+Vocal melody extraction with semantic segmentation and audio-symbolic domain transfer learning	Wei Tsung Lu and Li Su	286	session-4
+Empirically Weighting the Importance of Decision Factors for Singing Preference	Michael Barone, Karim Ibrahim, Chitralekha Gupta and Ye Wang	117	session-4
+Analysis by classification: A comparative study of annotated and algorithmically extracted patterns in symbolic music data	Iris Yuping Ren, Anja Volk, Wouter Swierstra and Remco Veltkamp	75	session-5
+Generalized Skipgrams for Pattern Discovery in Polyphonic Streams	Christoph Finkensiep, Markus Neuwirth and Martin Rohrmeier	202	session-5
+Comparison of Audio Features for Recognition of Western and Ethnic Instruments in Polyphonic Mixtures	Igor Vatolkin and Günter Rudolph	139	session-5
+Instrudive: A Music Visualization System Based on Automatically Recognized Instrumentation	Takumi Takahashi, Satoru Fukayama and Masataka Goto	63	session-5
+Instrument Activity Detection in Polyphonic Music using Deep Neural Networks	Siddharth Gururani, Cameron Summers and Alexander Lerch	275	session-5
+Jazz Solo Instrument Classification with Convolutional Neural Networks, Source Separation, and Transfer Learning	Juan S. Gómez, Jakob Abeßer and Estefanía Cano	145	session-5
+Aligned sub-Hierarchies: a structure-based approach to the cover song task	Katherine M. Kinnaird	81	session-5
+Audio-to-Score Alignment using Transposition-invariant Features	Andreas Arzt and Stefan Lattner	166	session-5
+Semi-supervised lyrics and solo-singing alignment	Chitralekha Gupta, Rong Tong, Haizhou Li and Ye Wang	30	session-5
+Concert Stitch: Organization and Synchronization of Crowd Sourced Recordings	Vinod Subramanian and Alexander Lerch	182	session-5
+A data-driven approach to mid-level perceptual musical feature modeling	Anna Aljanaki and Mohammad Soleymani	183	session-5
+Disambiguating Music Artists at Scale with Audio Metric Learning	Jimena Royo-Letelier, Romain Hennequin, Viet-Anh Tran and Manuel Moussallam	211	session-5
+Driftin' down the scale: Dynamic time warping in the presence of pitch drift and transpositions	Simon Waloschek and Aristotelis Hadjakos	97	session-5
+End-to-end Learning for Music Audio Tagging at Scale	Jordi Pons, Oriol Nieto, Matthew Prockup, Erik M. Schmidt, Andreas F. Ehmann and Xavier Serra	191	session-5
+Audio based disambiguation of music genre tags	Romain Hennequin, Jimena Royo-Letelier and Manuel Moussallam	163	session-5
+Learning Domain-Adaptive Latent Representations of Music Signals Using Variational Autoencoders	Yin-Jyun Luo and Li Su	169	session-5
+Learning Interval Representations from Polyphonic Music Sequences	Stefan Lattner, Maarten Grachten and Gerhard Widmer	172	session-5
+Influences on the Social Practices Surrounding Commercial Music Services: A Model for Rich Interactions	Louis Spinelli, Josephine Lau, Liz Pritchard and Jin Ha Lee	52	session-6
+Investigating Cross-Country Relationship between Users' Social Ties and Music Mainstreaminess	Christine Bauer and Markus Schedl	130	session-6
+Listener Anonymizer: Camouflaging Play Logs to Preserve User's Demographic Anonymity	Kosetsu Tsukuda, Satoru Fukayama and Masataka Goto	78	session-6
+On the Impact of Music on Decision Making in Cooperative Tasks	Elad Liebman, Corey N. White and Peter Stone	298	session-6
+VenueRank: Identifying Venues that Contribute to Artist Popularity	Emmanouil Krasanakis, Emmanouil Schinas, Symeon Papadopoulos, Yiannis Kompatsiaris and Pericles Mitkas	91	session-6
+The Many Faces of Users: Modeling Musical Preference	Eva Zangerle and Martin Pichl	128	session-6
+Representation Learning of Music Using Artist Labels	Jiyoung Park, Jongpil Lee, Jangyeon Park, Jung-Woo Ha and Juhan Nam	168	session-6
+StructureNet: Inducing Structure in Generated Melodies	Gabriele Medeot, Srikanth Cherla, Katerina Kosta, Matt McVicar, Samer Abdallah, Marco Selvi, Ed Newton-Rex and Kevin Webster	126	session-6
+Summarizing and Comparing Music Data and Its Application on Cover Song Identification	Diego Furtado Silva, Felipe Falcão and Nazareno Andrade	36	session-6
+Transferring the Style of Homophonic Music Using Recurrent Neural Networks and Autoregressive Model	Wei Tsung Lu and Li Su	107	session-6
+MIDI-VAE: Modeling Dynamics and Instrumentation of Music with Applications to Style Transfer	Gino Brunner, Andres Konrad, Yuyi Wang and Roger Wattenhofer	204	session-6
+Understanding a Deep Machine Listening Model Through Feature Inversion	Saumitra Mishra, Bob L. Sturm and Simon Dixon	272	session-6
+Comparing RNN Parameters for Melodic Similarity	Tian Cheng, Satoru Fukayama and Masataka Goto	61	session-6
+Visualization of audio data using stacked graphs	Mathieu Lagrange, Mathias Rossignol and Grégoire Lafay	96	session-6
+Two web applications for exploring melodic patterns in jazz solos	Klaus Frieler, Frank Höger, Martin Pfleiderer and Simon Dixon	177	session-6
+Learning to Listen, Read, and Follow: Score Following as a Reinforcement Learning Game	Matthias Dorfer, Florian Henkel and Gerhard Widmer	45	session-6
+Matrix Co-Factorization for Cold-Start Recommendation	Olivier Gouvert, Thomas Oberlin and Cédric Févotte	142	session-6

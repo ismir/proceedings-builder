@@ -1,0 +1,60 @@
+Andreas Arzt	Johannes Kepler University
+Jean-Julien Aucouturier	CNRS/IRCAM
+Juan Pablo Bello	New York University
+Rachel Bittner	New York University
+Sebastian Böck	Austrian Research Institute for Artificial Intelligence
+Ching-Hua Chuan	University of Miami
+Sally Jo Cunningham	Waikato University
+Roger Dannenberg	Carnegie Mellon University
+Matthew Davies	INESC TEC
+Bas de Haas	Chordify
+Johanna Devaney	The Ohio State University
+Christian Dittmar	International Audio Laboratories Erlangen
+Simon Dixon	Queen Mary University of London
+J. Stephen Downie	University of Illinois
+Zhiyao Duan	University of Rochester
+Andreas Ehmann	Pandora
+Sebastian Ewert	Spotify
+George Fazekas	Queen Mary University of London
+Arthur Flexer	Austrian Research Institute for Artificial Intelligence (OFAI)
+José Fornari	NICS / COCEN / UNICAMP
+Ichiro Fujinaga	McGill University
+Masataka Goto	AIST
+Fabien Gouyon	Pandora
+Dorien Herremans	Singapore University of Technology and Design
+André Holzapfel	KTH
+Ozgur Izmirli	Connecticut College
+Jyh-Shing Jang	CSIE Dept, National Taiwan University
+Peter Knees	TU Wien
+Audrey Laplante	Université de Montréal
+Jinha Lee	University of Washington
+Kyogu Lee	Seoul National University
+Cynthia Liem	Delft University of Technology
+Michael Mandel	Brooklyn College, CUNY
+Brian McFee	New York University
+Matt McVicar	Jukedeck
+Meinard Mueller	International Audio Laboratories Erlangen
+Oriol Nieto	Pandora
+Kevin Page	University of Oxford
+Hélène C. Crayencour	CNRS
+Marcelo Queiroz	University of São Paulo
+Colin Raffel	Google Brain
+David Rizo	University of Alicante
+Justin Salamon	New York University
+Markus Schedl	Johannes Kepler University Linz
+Rodrigo Schramm	UFRGS
+Jeffrey Scott	Gracenote, Inc.
+Xavier Serra	Universitat Pompeu Fabra
+Jordan Smith	Ircam / Université Paris-Saclay
+Mohamed Sordo	Pandora
+Bob Sturm	Queen Mary University of London
+Li Su	Academia Sinica
+Douglas Turnbull	Ithaca College
+George Tzanetakis	University of Victoria
+Julián Urbano	Delft University of Technology
+Peter van Kranenburg	Meertens Institute, Amsterdam
+Gabriel Vigliensoni	DDMAL/CIRMMT/McGill University
+Ye Wang	National University of Singapore
+Frans Wiering	Utrecht University
+Kazuyoshi Yoshii	Kyoto University
+Eva Zangerle	University of Innsbruck

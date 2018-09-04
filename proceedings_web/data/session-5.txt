@@ -1,0 +1,18 @@
+Title	Authors	File
+Analysis by classification: A comparative study of annotated and algorithmically extracted patterns in symbolic music data	Iris Yuping Ren, Anja Volk, Wouter Swierstra, Remco Veltkamp	75_Paper.pdf
+Generalized Skipgrams for Pattern Discovery in Polyphonic Streams	Christoph Finkensiep, Markus Neuwirth, Martin Rohrmeier	202_Paper.pdf
+Comparison of Audio Features for Recognition of Western and Ethnic Instruments in Polyphonic Mixtures	Igor Vatolkin, Günter Rudolph	139_Paper.pdf
+Instrudive: A Music Visualization System Based on Automatically Recognized Instrumentation	Takumi Takahashi, Satoru Fukayama, Masataka Goto	63_Paper.pdf
+Instrument Activity Detection in Polyphonic Music using Deep Neural Networks	Siddharth Gururani, Cameron Summers, Alexander Lerch	275_Paper.pdf
+Jazz Solo Instrument Classification with Convolutional Neural Networks, Source Separation, and Transfer Learning	Juan S. Gómez, Jakob Abeßer, Estefanía Cano	145_Paper.pdf
+Aligned sub-Hierarchies: a structure-based approach to the cover song task	Katherine M. Kinnaird	81_Paper.pdf
+Audio-to-Score Alignment using Transposition-invariant Features	Andreas Arzt, Stefan Lattner	166_Paper.pdf
+Semi-supervised lyrics and solo-singing alignment	Chitralekha Gupta, Rong Tong, Haizhou Li, Ye Wang	30_Paper.pdf
+Concert Stitch: Organization and Synchronization of Crowd Sourced Recordings	Vinod Subramanian, Alexander Lerch	182_Paper.pdf
+A data-driven approach to mid-level perceptual musical feature modeling	Anna Aljanaki, Mohammad Soleymani	183_Paper.pdf
+Disambiguating Music Artists at Scale with Audio Metric Learning	Jimena Royo-Letelier, Romain Hennequin, Viet-Anh Tran, Manuel Moussallam	211_Paper.pdf
+Driftin' down the scale: Dynamic time warping in the presence of pitch drift and transpositions	Simon Waloschek, Aristotelis Hadjakos	97_Paper.pdf
+End-to-end Learning for Music Audio Tagging at Scale	Jordi Pons, Oriol Nieto, Matthew Prockup, Erik M. Schmidt, Andreas F. Ehmann, Xavier Serra	191_Paper.pdf
+Audio based disambiguation of music genre tags	Romain Hennequin, Jimena Royo-Letelier, Manuel Moussallam	163_Paper.pdf
+Learning Domain-Adaptive Latent Representations of Music Signals Using Variational Autoencoders	Yin-Jyun Luo, Li Su	169_Paper.pdf
+Learning Interval Representations from Polyphonic Music Sequences	Stefan Lattner, Maarten Grachten, Gerhard Widmer	172_Paper.pdf

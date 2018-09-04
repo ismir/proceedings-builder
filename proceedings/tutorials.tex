@@ -1,0 +1,33 @@
+%-------------------------------------------
+\thispagestyle{empty}\cleardoublepage
+\addcontentsline{toc}{section}{Tutorials}
+\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/11_Tutorials.pdf}%
+\thispagestyle{empty}\cleardoublepage
+ %-------------------------------------------
+
+\newcommand{\includetut}[3]{\addcontentsline{toc}{subsection}{#1\\\textit{#2}}
+\includepdf[pages=#3, pagecommand=\thispagestyle{fancy}]{external/11_TutorialsAll.pdf}}
+
+% Tutorial 1
+\includetut{Open Source and Reproducible MIR Research}{Brian McFee and Thor Kell}{1-2}
+
+% Tutorial 2
+\includetut{Computational Approaches for Analysis of Non-Western Music Traditions}{Xavier Serra, Martin Clayton, and Barı\c{s} Bozkurt}{3-4}
+
+% Tutorial 3
+\includetut{Statistical Analysis of Results in Music Information Retrieval: Why and How}{Juli\'{a}n Urbano and Arthur Flexer}{5-6}
+
+% Tutorial 4
+\includetut{Music Separation with DNNs: Making It Work}{Antoine Liutkus and Fabian-Robert St\"{o}ter}{7-8}
+
+% Tutorial 5
+\includetut{Deep Learning for MIR}{Alexander Schindler, Thomas Lidy, and Sebastian B\"{o}ck}{9}
+
+% Tutorial 6
+\includetut{Fundamental Frequency Estimation in Music}{Rachel Bittner, Alain de Cheveign\'{e}, and Johanna Devaney}{10}
+
+% Tutorial 7
+\includetut{Optical Music Recognition for Dummies}{Jorge Calvo-Zaragoza, Jan Haji\v{c} jr., Alexander Pacha, and Ichiro Fujinaga}{11-12}
+
+% Tutorial 8
+\includetut{Overview and New Challenges of Music Recommendation Research in 2018}{Markus Schedl, Peter Knees, and Fabien Gouyon}{13-14}

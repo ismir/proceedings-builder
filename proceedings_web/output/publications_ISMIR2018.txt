@@ -1,0 +1,433 @@
+<title>Proceedings of the 19th International Society for Music Information Retrieval Conference, ISMIR 2018, Paris, France, September 23-27, 2018</title>
+<booktitle>ISMIR 2018</booktitle>
+<editor>Emilia Gómez</editor>
+<editor>Xiao Hu</editor>
+<editor>Eric Humphrey</editor>
+<editor>Emmanouil Benetos</editor>
+<publisher></publisher>
+<series></series>
+<volume></volume>
+<year>2018</year>
+<issn></issn>
+<isbn>XXX-XXX-XX-XXXX-X</isbn>
+
+<h2>Papers</h2>
+<ul>
+<li>Roman B. Gebhardt, Michael Stein, Athanasios Lykartsis:
+A Confidence Measure For Key Labelling.
+23-29
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/72_Paper.pdf</ee>
+<li>Filip Korzeniowski, Gerhard Widmer:
+Improved Chord Recognition by Combining Duration and Harmonic Language Models.
+30-37
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/300_Paper.pdf</ee>
+<li>Tristan Carsault, Jerome Nika, Philippe Esling:
+Using musical relationships between chord labels in Automatic Chord Extraction tasks.
+38-45
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/231_Paper.pdf</ee>
+<li>Stefan Lattner, Maarten Grachten, Gerhard Widmer:
+A Predictive Model for Music based on Learned Interval Representations.
+46-53
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/179_Paper.pdf</ee>
+<li>Miguel A. Román, Antonio Pertusa, Jorge Calvo-Zaragoza:
+An End-to-end Framework for Audio-to-Score Music Transcription on Monophonic Excerpts.
+54-61
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/87_Paper.pdf</ee>
+<li>Andrew McLeod, Mark Steedman:
+Evaluating Automatic Polyphonic Music Transcription.
+62-69
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/148_Paper.pdf</ee>
+<li>Curtis Hawthorne, Erich Elsen, Jialin Song, Adam Roberts, Ian Simon, Colin Raffel, Jesse Engel, Sageev Oore, Douglas Eck:
+Onsets and Frames: Dual-Objective Piano Transcription.
+70-77
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/19_Paper.pdf</ee>
+<li>Carl Southall, Ryan Stables, Jason Hockman:
+Player Vs Transcriber: A Game Approach To Data Manipulation For Automatic Drum Transcription.
+78-85
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/24_Paper.pdf</ee>
+<li>Nathaniel Condit-Schultz, Yaolong Ju, Ichiro Fujinaga:
+A Flexible Approach to Automated Harmonic Analysis: Multiple Annotations of Chorales by Bach and Prætorius.
+86-93
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/283_Paper.pdf</ee>
+<li>Tejaswinee Kelkar, Udit Roy, Alexander Refsum Jensenius:
+Evaluating a collection of Sound-Tracing Data of Melodic Phrases.
+94-101
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/209_Paper.pdf</ee>
+<li>Dogac Basaran, Slim Essid, Geoffroy Peeters:
+Main Melody Estimation with Source-Filter NMF and CRNN.
+102-109
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/273_Paper.pdf</ee>
+<li>Tsung-Ping Chen, Li Su:
+Functional Harmony Recognition of Symbolic music data with Multi-task Recurrent Neural Networks.
+110-117
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/178_Paper.pdf</ee>
+<li>Hendrik Schreiber, Meinard Müller:
+A single-step approach to musical tempo estimation using a convolutional neural network.
+118-125
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/141_Paper.pdf</ee>
+<li>Magdalena Fuentes, Brian McFee, Hélène C. Crayencour, Slim Essid, Juan Pablo Bello:
+Analysis of Common Design Choices in Deep Learning Systems for Downbeat Tracking.
+126-132
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/203_Paper.pdf</ee>
+<li>Andrew McLeod, Mark Steedman:
+Meter Detection and Alignment of MIDI Performance.
+133-139
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/136_Paper.pdf</ee>
+<li>Dasaem Jeong, Taegyun Kwon, Juhan Nam:
+A Timbre-based Approach to Estimate Key Velocity from Polyphonic Piano Recordings.
+140-147
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/196_Paper.pdf</ee>
+<li>Francesco Bigoni, Sofia Dahl:
+Timbre Discrimination for Brief Instrument Sounds.
+148-154
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/249_Paper.pdf</ee>
+<li>Yun-Ning Hung, Yi-Hsuan Yang:
+Frame-level Instrument Recognition by Timbre and Pitch.
+155-162
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/55_Paper.pdf</ee>
+<li>Hiroaki Tsushima, Eita Nakamura, Katsutoshi Itoyama, Kazuyoshi Yoshii:
+Interactive Arrangement of Chords and Melodies Based on a Tree-Structured Generative Model.
+95-101
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/1_Paper.pdf</ee>
+<li>Daniel Harasim, Martin Rohrmeier, Timothy J. O'Donnell:
+A Generalized Parsing Framework for Generative Models of Harmonic Syntax.
+102-109
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/258_Paper.pdf</ee>
+<li>Peter M. C. Harrison, Marcus T. Pearce:
+An energy-based generative sequence model for testing sensory theories of Western harmony.
+110-117
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/215_Paper.pdf</ee>
+<li>Shun-Yao Shih, Heng-Yu Chi:
+Automatic, Personalized, and Flexible Playlist Generation using Reinforcement Learning.
+118-124
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/18_Paper.pdf</ee>
+<li>Philippe Esling, Axel Chemla--Romeu-Santos, Adrien Bitton:
+Bridging audio analysis, perception and synthesis with perceptually-regularized variational timbre spaces.
+125-131
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/219_Paper.pdf</ee>
+<li>Rachel Manzelli, Vijay Thakkar, Ali Siahkamari, Brian Kulis:
+Conditioning Deep Generative Raw Audio Models for Structured Automatic Music.
+132-139
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/192_Paper.pdf</ee>
+<li>Hao-Wen Dong, Yi-Hsuan Yang:
+Convolutional Generative Adversarial Networks with Binary Neurons for Polyphonic Music Generation.
+140-146
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/218_Paper.pdf</ee>
+<li>Christopher Tralie:
+Cover Song Synthesis by Analogy.
+147-153
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/103_Paper.pdf</ee>
+<li>Yujia Yan, Ethan Lustig, Joseph VanderStel, Zhiyao Duan:
+Part-invariant Model for Music Generation and Harmonization.
+154-160
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/293_Paper.pdf</ee>
+<li>David Sears, Filip Korzeniowski, Gerhard Widmer:
+Evaluating language models of tonal harmony.
+161-167
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/262_Paper.pdf</ee>
+<li>Bochen Li, Akira Maezawa, Zhiyao Duan:
+Skeleton plays piano: online generation of pianist body movements from MIDI performance.
+168-174
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/109_Paper.pdf</ee>
+<li>Jan Hajič jr., Matthias Dorfer, Gerhard Widmer, Pavel Pecina:
+Towards Full-Pipeline Handwritten OMR with Musical Symbol Detection by U-Nets.
+175-182
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/175_Paper.pdf</ee>
+<li>Tim Crawford, Golnaz Badkobeh, David Lewis:
+Searching Page-Images of Early Music Scanned with OMR: A Scalable Solution Using Minimal Absent Words.
+183-189
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/210_Paper.pdf</ee>
+<li>Alexander Pacha, Jorge Calvo-Zaragoza:
+Optical Music Recognition in Mensural Notation with Region-based Convolutional Neural Networks.
+190-197
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/32_Paper.pdf</ee>
+<li>Jorge Calvo-Zaragoza, David Rizo:
+Camera-PrIMuS: Neural End-to-End Optical Music Recognition on Realistic Monophonic Scores.
+198-205
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/33_Paper.pdf</ee>
+<li>Francisco Castellanos, Jorge Calvo-Zaragoza, Gabriel Vigliensoni, Ichiro Fujinaga:
+Document Analysis of Music Score Images with Selectional Auto-Encoders.
+206-213
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/93_Paper.pdf</ee>
+<li>Filip Korzeniowski, Gerhard Widmer:
+Genre-Agnostic Key Classification With Convolutional Neural Networks.
+214-220
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/7_Paper.pdf</ee>
+<li>Lukas Tuggener, Ismail Elezi, Jürgen Schmidhuber, Thilo Stadelmann:
+Deep Watershed Detector for Music Object Recognition.
+221-228
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/225_Paper.pdf</ee>
+<li>Reinier de Valk, Tillman Weyde:
+Deep neural networks with voice entry estimation heuristics for voice separation in symbolic music representations.
+129-136
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/304_Paper.pdf</ee>
+<li>Sungheon Park, Taehoon Kim, Kyogu Lee, Nojun Kwak:
+Music Source Separation Using Stacked Hourglass Networks.
+137-144
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/138_Paper.pdf</ee>
+<li>Ethan Manilow, Prem Seetharaman, Bryan Pardo:
+The Northwestern University Source Separation Library.
+145-153
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/37_Paper.pdf</ee>
+<li>Jakob Abeßer, Stefan Balke, Meinard Müller:
+Improving Bass Saliency Estimation using Transfer Learning and Label Propagation.
+154-160
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/143_Paper.pdf</ee>
+<li>Carl Southall, Ryan Stables, Jason Hockman:
+Improving Peak-picking Using Multiple Time-step Loss Functions.
+161-168
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/25_Paper.pdf</ee>
+<li>Jan Schlüter, Bernhard Lehner:
+Zero-Mean Convolutions for Level-Invariant Singing Voice Detection.
+169-174
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/189_Paper.pdf</ee>
+<li>Mathieu Andreux, Stéphane Mallat:
+Music Generation and Transformation with Moment Matching-Scattering Inverse Networks.
+175-181
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/131_Paper.pdf</ee>
+<li>Daniel Stoller, Sebastian Ewert, Simon Dixon:
+Wave-U-Net: A Multi-Scale Neural Network for End-to-End Audio Source Separation.
+182-188
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/205_Paper.pdf</ee>
+<li>Melissa R. McGuirl, Katherine M. Kinnaird, Claire Savard, Erin H. Bugbee:
+SE and SNL diagrams: Flexible data structures for MIR.
+189-195
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/105_Paper.pdf</ee>
+<li>Cory McKay, Julie Cumming, Ichiro Fujinaga:
+JSYMBOLIC 2.2: Extracting Features from Symbolic Music for use in Musicological and MIR Research.
+196-202
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/26_Paper.pdf</ee>
+<li>Louis Bigo, Laurent Feisthauer, Mathieu Giraud, Florence Levé:
+Relevance of musical features for cadence detection.
+203-209
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/243_Paper.pdf</ee>
+<li>Xiao Hu, Fanjie Li, Jeremy T. D. Ng:
+On the Relationships between Music-induced Emotion and Physiological Signals.
+210-217
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/115_Paper.pdf</ee>
+<li>Rémi Delbouys, Romain Hennequin, Francesco Piccoli, Jimena Royo-Letelier, Manuel Moussallam:
+Music Mood Detection Based on Audio and Lyrics with Deep Neural Net.
+218-223
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/99_Paper.pdf</ee>
+<li>Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Simone Hantke, Giovanni Costantini, Klaus Scherer, Bjoern Schuller:
+Identifying Emotions in Opera Singing: Implications of Adverse Acoustic Conditions.
+224-230
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/22_Paper.pdf</ee>
+<li>Renato Panda, Ricardo Malheiro, Rui Pedro Paiva:
+Musical Texture and Expressivity Features for Music Emotion Recognition.
+231-239
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/250_Paper.pdf</ee>
+<li>André Ofner, Sebastian Stober:
+Shared generative representation of auditory concepts and EEG to reconstruct perceived and imagined music.
+240-247
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/101_Paper.pdf</ee>
+<li>Renan de Padua, Verônica Oliveira de Carvalho, Solange Rezende, Diego Furtado Silva:
+Exploring Musical Relations Using Association Rule Networks.
+248-254
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/268_Paper.pdf</ee>
+<li>Hendrik Schreiber, Meinard Müller:
+A Crowdsourced Experiment for Tempo Estimation of Electronic Dance Music.
+155-161
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/220_Paper.pdf</ee>
+<li>Christof Weiss, Stefan Balke, Jakob Abesser, Meinard Müller:
+Computational Corpus Analysis: A Case Study on Jazz Solos.
+162-169
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/23_Paper.pdf</ee>
+<li>Pasquale Lisena, Konstantin Todorov, Cécile Cecconi, Françoise Leresche, Isabelle Canno, Frédéric Puyrenier, Martine Voisin, Thierry Le Meur, Raphaël Troncy:
+Controlled Vocabularies for Music Metadata.
+170-176
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/68_Paper.pdf</ee>
+<li>Gabriel Meseguer-Brocal, Alice Cohen-Hadria, Geoffroy Peeters:
+DALI: a large Dataset of synchronized Audio, LyrIcs and notes, automatically created using teacher-student machine learning paradigm..
+177-183
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/35_Paper.pdf</ee>
+<li>Eric Humphrey, Simon Durand, Brian McFee:
+OpenMIC-2018: An open data-set for multiple instrument recognition.
+184-190
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/248_Paper.pdf</ee>
+<li>Chih-Wei Wu, Alexander Lerch:
+From Labeled to Unlabeled Data – On the Data Challenge in Automatic Drum Transcription.
+191-198
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/185_Paper.pdf</ee>
+<li>Qingyang Xi, Rachel Bittner, Johan Pauwels, Xuzhou Ye, Juan Pablo Bello:
+GuitarSet: A Dataset for Guitar Transcription.
+199-206
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/188_Paper.pdf</ee>
+<li>Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Bjoern Schuller:
+Musical-Linguistic Annotations of Il Lauro Secco.
+207-213
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/11_Paper.pdf</ee>
+<li>Julia Wilkins, Prem Seetharaman, Alison Wahl, Bryan Pardo:
+VocalSet: A Singing Voice Dataset.
+214-220
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/114_Paper.pdf</ee>
+<li>Chris Donahue, Huanru Henry Mao, Julian McAuley:
+The NES Music Database: A multi-instrumental dataset with expressive performance attributes.
+221-228
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/265_Paper.pdf</ee>
+<li>Vsevolod Eremenko, Emir Demirel, Baris Bozkurt, Xavier Serra:
+Audio-Aligned Jazz Harmony Dataset for Automatic Chord Transcription and Corpus-based Research.
+229-236
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/206_Paper.pdf</ee>
+<li>Julie Cumming, Cory McKay, Jonathan Stuchbery, Ichiro Fujinaga:
+Methodologies for Creating Symbolic Corpora of Western Music Before 1600.
+237-244
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/46_Paper.pdf</ee>
+<li>Venkata Viraraghavan, Rangarajan Aravind, Hema Murthy:
+Precision of Sung Notes in Carnatic Music.
+245-251
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/120_Paper.pdf</ee>
+<li>Kyungyun Lee, Keunwoo Choi, Juhan Nam:
+Revisiting Singing Voice Detection: A quantitative review and the future outlook.
+252-259
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/38_Paper.pdf</ee>
+<li>Andrew Demetriou, Andreas Jansson, Aparna Kumar, Rachel Bittner:
+Vocals in Music Matter: the Relevance of Vocals in the Minds of Listeners.
+260-266
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/98_Paper.pdf</ee>
+<li>Wei Tsung Lu, Li Su:
+Vocal melody extraction with semantic segmentation and audio-symbolic domain transfer learning.
+267-274
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/286_Paper.pdf</ee>
+<li>Michael Barone, Karim Ibrahim, Chitralekha Gupta, Ye Wang:
+Empirically Weighting the Importance of Decision Factors for Singing Preference.
+275-282
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/117_Paper.pdf</ee>
+<li>Iris Yuping Ren, Anja Volk, Wouter Swierstra, Remco Veltkamp:
+Analysis by classification: A comparative study of annotated and algorithmically extracted patterns in symbolic music data.
+271-278
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/75_Paper.pdf</ee>
+<li>Christoph Finkensiep, Markus Neuwirth, Martin Rohrmeier:
+Generalized Skipgrams for Pattern Discovery in Polyphonic Streams.
+279-285
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/202_Paper.pdf</ee>
+<li>Igor Vatolkin, Günter Rudolph:
+Comparison of Audio Features for Recognition of Western and Ethnic Instruments in Polyphonic Mixtures.
+286-292
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/139_Paper.pdf</ee>
+<li>Takumi Takahashi, Satoru Fukayama, Masataka Goto:
+Instrudive: A Music Visualization System Based on Automatically Recognized Instrumentation.
+293-300
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/63_Paper.pdf</ee>
+<li>Siddharth Gururani, Cameron Summers, Alexander Lerch:
+Instrument Activity Detection in Polyphonic Music using Deep Neural Networks.
+301-308
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/275_Paper.pdf</ee>
+<li>Juan S. Gómez, Jakob Abeßer, Estefanía Cano:
+Jazz Solo Instrument Classification with Convolutional Neural Networks, Source Separation, and Transfer Learning.
+309-316
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/145_Paper.pdf</ee>
+<li>Katherine M. Kinnaird:
+Aligned sub-Hierarchies: a structure-based approach to the cover song task.
+317-323
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/81_Paper.pdf</ee>
+<li>Andreas Arzt, Stefan Lattner:
+Audio-to-Score Alignment using Transposition-invariant Features.
+324-331
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/166_Paper.pdf</ee>
+<li>Chitralekha Gupta, Rong Tong, Haizhou Li, Ye Wang:
+Semi-supervised lyrics and solo-singing alignment.
+332-339
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/30_Paper.pdf</ee>
+<li>Vinod Subramanian, Alexander Lerch:
+Concert Stitch: Organization and Synchronization of Crowd Sourced Recordings.
+340-346
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/182_Paper.pdf</ee>
+<li>Anna Aljanaki, Mohammad Soleymani:
+A data-driven approach to mid-level perceptual musical feature modeling.
+347-353
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/183_Paper.pdf</ee>
+<li>Jimena Royo-Letelier, Romain Hennequin, Viet-Anh Tran, Manuel Moussallam:
+Disambiguating Music Artists at Scale with Audio Metric Learning.
+354-361
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/211_Paper.pdf</ee>
+<li>Simon Waloschek, Aristotelis Hadjakos:
+Driftin' down the scale: Dynamic time warping in the presence of pitch drift and transpositions.
+362-368
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/97_Paper.pdf</ee>
+<li>Jordi Pons, Oriol Nieto, Matthew Prockup, Erik M. Schmidt, Andreas F. Ehmann, Xavier Serra:
+End-to-end Learning for Music Audio Tagging at Scale.
+369-376
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/191_Paper.pdf</ee>
+<li>Romain Hennequin, Jimena Royo-Letelier, Manuel Moussallam:
+Audio based disambiguation of music genre tags.
+377-384
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/163_Paper.pdf</ee>
+<li>Yin-Jyun Luo, Li Su:
+Learning Domain-Adaptive Latent Representations of Music Signals Using Variational Autoencoders.
+385-392
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/169_Paper.pdf</ee>
+<li>Stefan Lattner, Maarten Grachten, Gerhard Widmer:
+Learning Interval Representations from Polyphonic Music Sequences.
+393-400
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/172_Paper.pdf</ee>
+<li>Louis Spinelli, Josephine Lau, Liz Pritchard, Jin Ha Lee:
+Influences on the Social Practices Surrounding Commercial Music Services: A Model for Rich Interactions.
+337-343
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/52_Paper.pdf</ee>
+<li>Christine Bauer, Markus Schedl:
+Investigating Cross-Country Relationship between Users' Social Ties and Music Mainstreaminess.
+344-352
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/130_Paper.pdf</ee>
+<li>Kosetsu Tsukuda, Satoru Fukayama, Masataka Goto:
+Listener Anonymizer: Camouflaging Play Logs to Preserve User's Demographic Anonymity.
+353-360
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/78_Paper.pdf</ee>
+<li>Elad Liebman, Corey N. White, Peter Stone:
+On the Impact of Music on Decision Making in Cooperative Tasks.
+361-367
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/298_Paper.pdf</ee>
+<li>Emmanouil Krasanakis, Emmanouil Schinas, Symeon Papadopoulos, Yiannis Kompatsiaris, Pericles Mitkas:
+VenueRank: Identifying Venues that Contribute to Artist Popularity.
+368-374
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/91_Paper.pdf</ee>
+<li>Eva Zangerle, Martin Pichl:
+The Many Faces of Users: Modeling Musical Preference.
+375-382
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/128_Paper.pdf</ee>
+<li>Jiyoung Park, Jongpil Lee, Jangyeon Park, Jung-Woo Ha, Juhan Nam:
+Representation Learning of Music Using Artist Labels.
+383-390
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/168_Paper.pdf</ee>
+<li>Gabriele Medeot, Srikanth Cherla, Katerina Kosta, Matt McVicar, Samer Abdallah, Marco Selvi, Ed Newton-Rex, Kevin Webster:
+StructureNet: Inducing Structure in Generated Melodies.
+391-397
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/126_Paper.pdf</ee>
+<li>Diego Furtado Silva, Felipe Falcão, Nazareno Andrade:
+Summarizing and Comparing Music Data and Its Application on Cover Song Identification.
+398-405
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/36_Paper.pdf</ee>
+<li>Wei Tsung Lu, Li Su:
+Transferring the Style of Homophonic Music Using Recurrent Neural Networks and Autoregressive Model.
+406-412
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/107_Paper.pdf</ee>
+<li>Gino Brunner, Andres Konrad, Yuyi Wang, Roger Wattenhofer:
+MIDI-VAE: Modeling Dynamics and Instrumentation of Music with Applications to Style Transfer.
+413-420
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/204_Paper.pdf</ee>
+<li>Saumitra Mishra, Bob L. Sturm, Simon Dixon:
+Understanding a Deep Machine Listening Model Through Feature Inversion.
+421-428
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/272_Paper.pdf</ee>
+<li>Tian Cheng, Satoru Fukayama, Masataka Goto:
+Comparing RNN Parameters for Melodic Similarity.
+429-436
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/61_Paper.pdf</ee>
+<li>Mathieu Lagrange, Mathias Rossignol, Grégoire Lafay:
+Visualization of audio data using stacked graphs.
+437-442
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/96_Paper.pdf</ee>
+<li>Klaus Frieler, Frank Höger, Martin Pfleiderer, Simon Dixon:
+Two web applications for exploring melodic patterns in jazz solos.
+443-449
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/177_Paper.pdf</ee>
+<li>Matthias Dorfer, Florian Henkel, Gerhard Widmer:
+Learning to Listen, Read, and Follow: Score Following as a Reinforcement Learning Game.
+450-457
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/45_Paper.pdf</ee>
+<li>Olivier Gouvert, Thomas Oberlin, Cédric Févotte:
+Matrix Co-Factorization for Cold-Start Recommendation.
+458-464
+<ee>https://ismir2017.smcnus.org/wp-content/uploads/2017/10/142_Paper.pdf</ee>
+</ul>
+<footer>

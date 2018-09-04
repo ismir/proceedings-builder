@@ -1,0 +1,18 @@
+Title	Authors	File
+Deep neural networks with voice entry estimation heuristics for voice separation in symbolic music representations	Reinier de Valk, Tillman Weyde	304_Paper.pdf
+Music Source Separation Using Stacked Hourglass Networks	Sungheon Park, Taehoon Kim, Kyogu Lee, Nojun Kwak	138_Paper.pdf
+The Northwestern University Source Separation Library	Ethan Manilow, Prem Seetharaman, Bryan Pardo	37_Paper.pdf
+Improving Bass Saliency Estimation using Transfer Learning and Label Propagation	Jakob Abeßer, Stefan Balke, Meinard Müller	143_Paper.pdf
+Improving Peak-picking Using Multiple Time-step Loss Functions	Carl Southall, Ryan Stables, Jason Hockman	25_Paper.pdf
+Zero-Mean Convolutions for Level-Invariant Singing Voice Detection	Jan Schlüter, Bernhard Lehner	189_Paper.pdf
+Music Generation and Transformation with Moment Matching-Scattering Inverse Networks	Mathieu Andreux, Stéphane Mallat	131_Paper.pdf
+Wave-U-Net: A Multi-Scale Neural Network for End-to-End Audio Source Separation	Daniel Stoller, Sebastian Ewert, Simon Dixon	205_Paper.pdf
+SE and SNL diagrams: Flexible data structures for MIR	Melissa R. McGuirl, Katherine M. Kinnaird, Claire Savard, Erin H. Bugbee	105_Paper.pdf
+JSYMBOLIC 2.2: Extracting Features from Symbolic Music for use in Musicological and MIR Research	Cory McKay, Julie Cumming, Ichiro Fujinaga	26_Paper.pdf
+Relevance of musical features for cadence detection	Louis Bigo, Laurent Feisthauer, Mathieu Giraud, Florence Levé	243_Paper.pdf
+On the Relationships between Music-induced Emotion and Physiological Signals	Xiao Hu, Fanjie Li, Jeremy T. D. Ng	115_Paper.pdf
+Music Mood Detection Based on Audio and Lyrics with Deep Neural Net	Rémi Delbouys, Romain Hennequin, Francesco Piccoli, Jimena Royo-Letelier, Manuel Moussallam	99_Paper.pdf
+Identifying Emotions in Opera Singing: Implications of Adverse Acoustic Conditions	Emilia Parada-Cabaleiro, Maximilian Schmitt, Anton Batliner, Simone Hantke, Giovanni Costantini, Klaus Scherer, Bjoern Schuller	22_Paper.pdf
+Musical Texture and Expressivity Features for Music Emotion Recognition	Renato Panda, Ricardo Malheiro, Rui Pedro Paiva	250_Paper.pdf
+Shared generative representation of auditory concepts and EEG to reconstruct perceived and imagined music	André Ofner, Sebastian Stober	101_Paper.pdf
+Exploring Musical Relations Using Association Rule Networks	Renan de Padua, Verônica Oliveira de Carvalho, Solange Rezende, Diego Furtado Silva	268_Paper.pdf
