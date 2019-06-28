@@ -7,14 +7,14 @@ Scripts for generating ISMIR 2018 proceedings
 | Directory | Purpose |
 | --- | --- |
 | `./` | Scripts for global processing |
-| `data/` | Input: Metadata about papers, sessions, etc |
-| `2018_Proceedings_ISMIR/articles/` | Input: PDF files of all articles by number, e.g., `004_Paper.pdf` |
-| `2018_Proceedings_ISMIR/external/` | Input: Front matter created in Word or google docs |
-| `2018_Proceedings_ISMIR_Electronic_Tools/templates/` | Input: templates for HTML proceedings, DBLP |
+| `data/` | **Input**: Metadata about papers, sessions, etc |
 | `2018_Proceedings_ISMIR/` | LaTeX files for generating PDF proceedings |
+| `2018_Proceedings_ISMIR/articles/` | **Input**: PDF files of all articles by number, e.g., `004_Paper.pdf` |
+| `2018_Proceedings_ISMIR/external/` | **Input**: Front matter created in Word or google docs |
 | `2018_Proceedings_ISMIR_Electronic_Tools/` | Scripts for generating HTML proceedings for USB sticks |
-| `2018_Proceedings_ISMIR_Electronic/` | Output: some HTML proceedings files |
-| `2018_Proceedings_ISMIR_Electronic_Tools/output/` | Output: other HTML proceedings files |
+| `2018_Proceedings_ISMIR_Electronic_Tools/templates/` | **Input**: templates for HTML proceedings, DBLP |
+| `2018_Proceedings_ISMIR_Electronic/` | **Output**: some HTML proceedings files |
+| `2018_Proceedings_ISMIR_Electronic_Tools/output/` | **Output**: other HTML proceedings files |
 
 
 ## Steps to run scripts and generate PDF and HTML proceedings
