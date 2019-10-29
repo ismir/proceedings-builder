@@ -1,0 +1,110 @@
+% ISMIR 2017 Proceedings
+\documentclass{confproc}
+%\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage{multicol}
+\usepackage{setspace}
+\usepackage{mathptmx}  % Use times font for text and math
+\usepackage{authorindex}
+
+\newcommand{\includeabstract}[4]{\addcontentsline{toc}{subsection}{#1\\\textit{#2}}
+  \subsection*{#1\\\textit{#2}}
+  #3
+
+  #4}
+
+% Include fonts from embedded pdfs even if they already exist
+% http://tex.stackexchange.com/q/162711/97428
+\pdfinclusioncopyfonts 1
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Front pages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% include first page without headers
+\pagenumbering{gobble}
+\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/01_CoverFirst.pdf}%
+\thispagestyle{empty}\cleardoublepage
+\pagenumbering{roman}
+\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/02_CoverSecond.pdf}%
+\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/03_Imprint.pdf}%
+\thispagestyle{empty}\cleardoublepage
+\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/04_Logos.pdf}%
+\thispagestyle{empty}\cleardoublepage
+\includepdf[pages=2-3,pagecommand=\thispagestyle{empty}]{external/04_Logos.pdf}%
+\thispagestyle{empty}\cleardoublepage
+\includepdf[pages=1-2,pagecommand=\thispagestyle{fancy}]{external/05_CommitteeReviewers.pdf}%
+\thispagestyle{empty}\cleardoublepage
+\includepdf[pages=3-4,pagecommand=\thispagestyle{fancy}]{external/05_CommitteeReviewers.pdf}%
+\thispagestyle{empty}\cleardoublepage
+\includepdf[pages=5-6,pagecommand=\thispagestyle{fancy}]{external/05_CommitteeReviewers.pdf}%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preface
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}\cleardoublepage
+%\addcontentsline{toc}{section}{Preface}
+\includepdf[pages=1-,pagecommand=\thispagestyle{fancy}]{external/06_Preface.pdf}%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}\cleardoublepage
+%\addcontentsline{toc}{section}{Table of Contents}
+%\renewcommand{\contentsname}{Table of Contents}
+\onehalfspacing
+\tableofcontents
+\singlespacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start Page Numbers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}\cleardoublepage
+\pagenumbering{arabic}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Keynote Talks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}\cleardoublepage
+\input{keynotes.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% WiMIR Talk
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}\cleardoublepage
+\input{wimir.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tutorials
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}\cleardoublepage
+\input{tutorials.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Papers & Sessions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\thispagestyle{empty}\cleardoublepage
+\input{papers.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author Index
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\thispagestyle{empty}\cleardoublepage
+\addcontentsline{toc}{section}{Author Index}
+\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/13_AuthorIndex.pdf}
+\thispagestyle{empty}\cleardoublepage
+%\section*{Author Index}\addcontentsline{toc}{section}{Author Index}
+\begin{multicols}{2}
+\printauthorindex
+\end{multicols}
+
+
+\end{document}

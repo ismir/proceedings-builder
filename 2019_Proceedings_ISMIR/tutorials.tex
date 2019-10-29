@@ -1,0 +1,27 @@
+%-------------------------------------------
+\thispagestyle{empty}\cleardoublepage
+\addcontentsline{toc}{section}{Tutorials}
+\includepdf[pages=1,pagecommand=\thispagestyle{empty}]{external/11_Tutorials.pdf}%
+\thispagestyle{empty}\cleardoublepage
+ %-------------------------------------------
+
+\newcommand{\includetut}[3]{\addcontentsline{toc}{subsection}{#1\\\textit{#2}}
+\includepdf[pages=#3, pagecommand=\thispagestyle{fancy}]{external/11_TutorialsAll.pdf}}
+
+% Tutorial 1
+\includetut{Fundamentals of Music Processing: An Introduction using Python and Jupyter Notebooks}{Meinard M\"{u}ller and Frank Zalkow}{1-2}
+
+% Tutorial 2
+\includetut{Generating Music with GANs: An Overview and Case Studies}{Hao-Wen Dong and Yi-Hsuan Yang}{3-4}
+
+% Tutorial 3
+\includetut{Audiovisual Music Processing}{Zhiyao Duan, Slim Essid, Bochen Li and Sanjeel Parekh}{5-6}
+
+% Tutorial 4
+\includetut{Computational Modeling of Musical Expression: Perspectives, Datasets, Analysis and Generation}{Carlos Cancino-Cha\'{c}on, Katerina Kosta and Maarten Grachten}{7-8}
+
+% Tutorial 5
+\includetut{Waveform-based music processing with deep learning}{Sander Dieleman, Jordi Pons and Jongpil Lee}{9}
+
+% Tutorial 6
+\includetut{Fairness, Accountability and Transparency in Music Information Research (FAT-MIR)}{Emilia G\'{o}mez, Andre Holzapfel, Marius Miron and Bob L. Sturm}{10-11}
