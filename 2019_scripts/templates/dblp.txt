@@ -1,0 +1,25 @@
+<title>Proceedings of the 19th International Society for Music Information Retrieval Conference, ISMIR 2018, Paris, France, September 23-27, 2018</title>
+<booktitle>ISMIR 2018</booktitle>
+<editor>Emilia Gómez</editor>
+<editor>Xiao Hu</editor>
+<editor>Eric Humphrey</editor>
+<editor>Emmanouil Benetos</editor>
+<publisher></publisher>
+<series></series>
+<volume></volume>
+<year>2018</year>
+<issn></issn>
+<isbn>XXX-XXX-XX-XXXX-X</isbn>
+
+<h2>Papers</h2>
+<ul>
+{%- for session in sessions %}
+{%- for publication in session.publications %}
+<li>{{ publication.authors }}:
+{{ publication.title }}.
+{{ publication.paper_startpage }}-{{ publication.paper_endpage }}
+<ee>{{publication.ee}}</ee>
+{%- endfor %}
+{%- endfor %}
+</ul>
+<footer>
