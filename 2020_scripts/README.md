@@ -26,6 +26,8 @@ Install python dependencies
 
     pip install -r requirements.txt
 
+You must also have perl installed on your system to run the `authorindex.pl` script.
+
 ### Generating proceedings
 
 1. Convert CSV to JSON and rename paper files
@@ -64,6 +66,8 @@ When configured, run the `00-run.sh` bash script. It will compile the `2020_Proc
 
     cd 2020_Proceedings_ISMIR
     bash 00-run.sh
+
+Be sure to double-check the author-index to make sure the alphabetization worked. In the worst-case scenario, you may need to run the bash script piecemeal, manually correcting the `2020_Proceedings_ISMIR.ain` file that the perl script produces (e.g. if someone's last name starts with a non-ascii character and is put in the wrong place in the list.)
 
 4. Split proceedings
 
