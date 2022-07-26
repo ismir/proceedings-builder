@@ -26,7 +26,6 @@ gs -q -dNOPAUSE -dBATCH -dPDFSETTINGS=/prepress -sDEVICE=pdfwrite -sOutputFile=<
 
 All camera-ready paper PDF files should be in a single folder, as exported from CMT. Typically, the camera ready files are named as `PaperID\Camera_ready\<myfancyname>.pdf`
 
-
 ### Prepare metadata
 
 The scripts in this folder assume that the metadata for each paper is stored in a .csv file containing headers of:
@@ -49,7 +48,6 @@ OneLiner: The one-sentence 'main takeaway'
 Most of these fields are as downloaded from CMT with name changes to headers to make them read better and be better keys. SessionID is something that the PC chairs have to assign to papers. It is assumed that each paper is assigned to a session and there are a limited number of sessions. The order of sessions as we wish to see them in the proceedings is listed in a file and is provided as one of the inputs. 
 
 The content needs to be checked and verified to matched between PDF and the submission. The scripts here assume data is already cleaned up. The ordering (or presence of other headers) does not matter. This table can be exported from CMT or assembled manually, if necessary.
-
 
 ### Setup
 
@@ -103,6 +101,8 @@ This generates `../2021_Proceedings_ISMIR/papers.tex` file that will be used to 
 
 Update the front matter and section headings as needed. These are all saved as
 PDF files in the `external` directory, and included in the proceedings with the \includepdf command in the `tutorials.tex`, `keynotes.tex`, and `2021_Proceedings_ISMIR.tex` files. Add or remove files as needed. (Since these sections can change considerably from year-to-year, there's probably no benefit to automating this step.)
+
+This step involves seeking inputs from different sub-teams within the ISMIR 2021 organization team to gather inputs. Importantly, it also involves approaching the ISMIR board to the ISMIR tech team to reserve an ISBN for the final ISMIR 2021 proceedings. Once you have an ISBN, we can use any of the online ISBN barcode generators to generate a barcode image to add to the proceedings PDF. 
 
 When configured, run the `00-run.sh` bash script. It will compile the `2021_Proceedings_ISMIR.tex` file, generate the author index, perform some text normalization, and recompile everything twice more.
 ```
