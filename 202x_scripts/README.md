@@ -1,20 +1,20 @@
-# ISMIR proceedings generator: 2021 edition
-This folder contains scripts to generate the ISMIR 2021 proceedings. Note that these scripts were originally written in 2021 (in turn borrowed from 2020 and 2019) to run directly on the exported metadata and papers as downloaded from Microsoft CMT. 
+# ISMIR proceedings generator: 202x edition
+This folder contains scripts to generate the ISMIR 202x proceedings. Note that these scripts were originally written in 2021 (in turn borrowed from 2020 and 2019) to run directly on the exported metadata and papers as downloaded from Microsoft CMT.
 
 For any questions about these scripts (2021 edition), please contact Ajay Srinivasamurthy at [ajays.murthy@upf.edu](mailto:ajays.murthy@upf.edu)
 
 ## What will these scripts deliver?
 
 The scripts (with some manual steps) to prepare proceedings will deliver the following:
-1. [A full proceedings PDF](http://archives.ismir.net/ismir2021/2021_Proceedings_ISMIR.pdf)
+1. [A full proceedings PDF](http://archives.ismir.net/ismir202x/202x_Proceedings_ISMIR.pdf)
 2. A folder with final paper PDFs with header/footer and page numbers ready to be archived for posterity
-3. A publicly available archive [JSON](https://github.com/ismir/conference-archive/blob/master/database/proceedings/2021.json) for use with proceedings archiver
+3. A publicly available archive [JSON](https://github.com/ismir/conference-archive/blob/master/database/proceedings/202x.json) for use with proceedings archiver
 4. A JSON that is an extended version of (2) for internal use of the local organizers with some additional metadata that should not be publicly available
 
-(2) and (3) from above are inputs to the [proceedings archival system](https://github.com/ismir/conference-archive), which is the next step after building the proceedings. 
+(2) and (3) from above are inputs to the [proceedings archival system](https://github.com/ismir/conference-archive), which is the next step after building the proceedings.
 
 ## Preparation
-Before you start building the proceedings, ensure the following preparation steps are complete. The proceedings of ISMIR 2021 can be prepared once all camera-ready papers have been uploaded to CMT. Post the camera-ready date, we can export the metadata as a csv and camera-ready paper PDFs. 
+Before you start building the proceedings, ensure the following preparation steps are complete. The proceedings of ISMIR 202x can be prepared once all camera-ready papers have been uploaded to CMT. Post the camera-ready date, we can export the metadata as a csv and camera-ready paper PDFs.
 
 ### Process paper PDFs
 
@@ -66,13 +66,13 @@ I've run the proceedings builder successfully on a mac, so it should work on Lin
 The csv metadata is converted to a JSON. The papers will be renamed to `paper_[id].pdf` corresponding to their paper submission ID in the csv file and copied to a new location so that they can be easily referenced in the tex file.
 
 ```
-$ python3 1_generate_metadata_json.py -o ../2021_Proceedings_ISMIR/2021-paper-metadata.json -d ../2021_Proceedings_ISMIR/articles -s ../2021_Proceedings_ISMIR/2021-session-order.json ../2021_Proceedings_ISMIR/2021-cmt-metadata.csv ../2021_Proceedings_ISMIR/2021_camera_ready ../2021_Proceedings_ISMIR/2021-session-list.txt
+$ python3 1_generate_metadata_json.py -o ../202x_Proceedings_ISMIR/paper-metadata.json -d ../202x_Proceedings_ISMIR/articles -s ../202x_Proceedings_ISMIR/session-order.json ../202x_Proceedings_ISMIR/cmt-metadata.csv ../202x_Proceedings_ISMIR/camera_ready ../202x_Proceedings_ISMIR/session-list.txt
 ```
-`../2021_Proceedings_ISMIR/2021-cmt-metadata.csv` is the csv file exported from CMT
+`../202x_Proceedings_ISMIR/cmt-metadata.csv` is the csv file exported from CMT
 
-`../2021_Proceedings_ISMIR/2021_camera_ready` is the folder with camera-ready papers exported out of CMT
+`../202x_Proceedings_ISMIR/camera_ready` is the folder with camera-ready papers exported out of CMT
 
-`../2021_Proceedings_ISMIR/2021-session-list.txt` is text file with a list of sessions (one session name per line) in the same order we need papers added to proceedings. It is assumed that the list of sessions matches with session names listed in SessionID field of metadata csv file. 
+`../202x_Proceedings_ISMIR/session-list.txt` is text file with a list of sessions (one session name per line) in the same order we need papers added to proceedings. It is assumed that the list of sessions matches with session names listed in SessionID field of metadata csv file.
 
 The `-o` option is the location of the metadata JSON file to write. The `-d` option is the location of the articles in the directory containing the proceedings tex. The `-s` option is the location of the session JSON file to write.
 
@@ -93,24 +93,24 @@ It requires two inputs, the metadata and session JSON files generated in step-1
 
 The session name will be used as the section names in the table of contents. This should have been generated by step 1.
 ```
-$ python3 2_generate_paper_tex.py -o ../2021_Proceedings_ISMIR/papers.tex ../2021_Proceedings_ISMIR/2021-paper-metadata.json ../2021_Proceedings_ISMIR/2021-session-order.json
+$ python3 2_generate_paper_tex.py -o ../202x_Proceedings_ISMIR/papers.tex ../202x_Proceedings_ISMIR/paper-metadata.json ../202x_Proceedings_ISMIR/session-order.json
 ```
-This generates `../2021_Proceedings_ISMIR/papers.tex` file that will be used to compile all paper PDFs into a single proceedings PDF in the next step.
+This generates `../202x_Proceedings_ISMIR/papers.tex` file that will be used to compile all paper PDFs into a single proceedings PDF in the next step.
 
 ### Step-3: Build the proceedings in LaTeX (manual step)
 
 Update the front matter and section headings as needed. These are all saved as
-PDF files in the `external` directory, and included in the proceedings with the \includepdf command in the `tutorials.tex`, `keynotes.tex`, and `2021_Proceedings_ISMIR.tex` files. Add or remove files as needed. (Since these sections can change considerably from year-to-year, there's probably no benefit to automating this step.)
+PDF files in the `external` directory, and included in the proceedings with the \includepdf command in the `tutorials.tex`, `keynotes.tex`, and `202x_Proceedings_ISMIR.tex` files. Add or remove files as needed. (Since these sections can change considerably from year-to-year, there's probably no benefit to automating this step.)
 
-This step involves seeking inputs from different sub-teams within the ISMIR 2021 organization team to gather inputs. Importantly, it also involves approaching the ISMIR board to the ISMIR tech team to reserve an ISBN for the final ISMIR 2021 proceedings. Once you have an ISBN, we can use any of the online ISBN barcode generators to generate a barcode image to add to the proceedings PDF. 
+This step involves seeking inputs from different sub-teams within the conference organization team to gather inputs. Importantly, it also involves approaching the ISMIR board to the ISMIR tech team to reserve an ISBN for the final conference proceedings. Once you have an ISBN, we can use any of the online ISBN barcode generators to generate a barcode image to add to the proceedings PDF.
 
-When configured, run the `00-run.sh` bash script. It will compile the `2021_Proceedings_ISMIR.tex` file, generate the author index, perform some text normalization, and recompile everything twice more.
+When configured, run the `00-run.sh` bash script. It will compile the `202x_Proceedings_ISMIR.tex` file, generate the author index, perform some text normalization, and recompile everything twice more.
 ```
-$ cd 2021_Proceedings_ISMIR
+$ cd 202x_Proceedings_ISMIR
 $ bash 00-run.sh
 ```
 
-Be sure to double-check the author-index to make sure the alphabetization worked. In the worst-case scenario, you may need to run the bash script piecemeal, manually correcting the `2021_Proceedings_ISMIR.ain` file that the perl script produces (e.g. if someone's last name starts with a non-ascii character and is put in the wrong place in the list.)
+Be sure to double-check the author-index to make sure the alphabetization worked. In the worst-case scenario, you may need to run the bash script piecemeal, manually correcting the `202x_Proceedings_ISMIR.ain` file that the perl script produces (e.g. if someone's last name starts with a non-ascii character and is put in the wrong place in the list.)
 
 ### Step-4:Split proceedings
 
@@ -121,22 +121,22 @@ Open the PDF of the final proceedings and find the physical page number in the
 file where the header page for the first session starts - this is for option `-s`.
 `-o` is the directory to write the split articles to, `-j` is the option to export a new metadata json with updated file paths. 
 ```
-python3 4_split_proceedings.py -s 45 -o ../2021_Proceedings_ISMIR/split_articles -j ../2021_Proceedings_ISMIR/2021-paper-metadata-split.json ../2021_Proceedings_ISMIR/2021_Proceedings_ISMIR.pdf ../2021_Proceedings_ISMIR/2021-paper-metadata.json ../2021_Proceedings_ISMIR/2021-session-order.json 
+python3 4_split_proceedings.py -s 45 -o ../202x_Proceedings_ISMIR/split_articles -j ../202x_Proceedings_ISMIR/paper-metadata-split.json ../202x_Proceedings_ISMIR/202x_Proceedings_ISMIR.pdf ../202x_Proceedings_ISMIR/paper-metadata.json ../202x_Proceedings_ISMIR/session-order.json
 ```
-After splitting, the final PDFs ready for archival are stored in `../2021_Proceedings_ISMIR/split_articles` and the updated metadata JSON is stored in 
-`../2021_Proceedings_ISMIR/2021-paper-metadata-split.json`
+After splitting, the final PDFs ready for archival are stored in `../202x_Proceedings_ISMIR/split_articles` and the updated metadata JSON is stored in
+`../202x_Proceedings_ISMIR/paper-metadata-split.json`
 
 ### Step-5: Generate output files/folders for archiving
 
 This will generate the final output files containing metadata (abstracts, page numbers, authors, etc) used for archiving the final proceedings on Zenodo (see https://github.com/ismir/conference-archive/). Note that the `-s` option here refers to the page number not of the .pdf file but *in the page footer* (i.e. how it would be cited in a bibliography).
 ```
-$ python3 5_generate_final_outputs.py -o ../2021_Proceedings_ISMIR/metadata_final -s 17 ../2021_Proceedings_ISMIR/2021-paper-metadata-split.json ../2021_Proceedings_ISMIR/2021-session-order.json
+$ python3 5_generate_final_outputs.py -o ../202x_Proceedings_ISMIR/metadata_final -s 17 ../202x_Proceedings_ISMIR/paper-metadata-split.json ../202x_Proceedings_ISMIR/session-order.json
 ```
 
 After these five steps, 
 
-`../2021_Proceedings_ISMIR/metadata_final` will contain the internal and public proceedings metadata json
+`../202x_Proceedings_ISMIR/metadata_final` will contain the internal and public proceedings metadata json
 
-`../2021_Proceedings_ISMIR/split_articles` will contain the final paper PDFs
+`../202x_Proceedings_ISMIR/split_articles` will contain the final paper PDFs
 
 These are used as inputs to archiving the final proceedings of the conference on archives.ismir.net and Zenodo. Start from https://github.com/ismir/conference-archive/tree/master/2021_archive/README.md
