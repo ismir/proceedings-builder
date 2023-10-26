@@ -7,11 +7,12 @@ import PyPDF2
 import argparse
 import codecs
 import shutil
+import datetime
 
 key_template = {
     "title": None,
     "author": [],
-    "year": "2021",
+    "year": str(datetime.date.today().year),
     "doi": None,
     "url": None,
     "pages": None,
