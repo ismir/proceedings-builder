@@ -1,0 +1,29 @@
+<title>Proceedings of the 23nd International Society for Music Information Retrieval Conference, ISMIR 2023, Bengaluru, India, 4-8 Dec, 2022</title>
+<booktitle>ISMIR 2022</booktitle>
+<editor>Preeti Rao/editor>
+<editor>Hema Murthy</editor>
+<editor>Ajay Srinivasamurthy</editor>
+<editor>Rachel Bittner</editor>
+<editor>Xavier Serra</editor>
+<editor>Rafael Caro</editor>
+<editor>Masataka Goto</editor>
+<editor>Marius Miron</editor>
+<publisher></publisher>
+<series></series>
+<volume></volume>
+<year>2022</year>
+<issn></issn>
+<isbn>978-1-7327299-2-6</isbn>
+
+<h2>Papers</h2>
+<ul>
+{%- for session in sessions %}
+{%- for publication in session.publications %}
+<li>{{ publication.authors }}:
+{{ publication.title }}.
+{{ publication.paper_startpage }}-{{ publication.paper_endpage }}
+<ee>{{publication.ee}}</ee>
+{%- endfor %}
+{%- endfor %}
+</ul>
+<footer>

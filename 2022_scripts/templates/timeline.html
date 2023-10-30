@@ -1,0 +1,46 @@
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="assets/bower_components/bootstrap/dist/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/timeline.css">
+<script src="assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+<title>Timeline</title>
+<body>
+
+<div class="container">
+    <div class="page-header">
+        <h1 id="timeline">Timeline</h1>
+    </div>
+    <ul class="timeline">
+        {% for session in sessions %}
+        <li class="{{ loop.cycle('', 'timeline-inverted') }}">
+          <div class="timeline-badge"><i class="glyphicon 
+              {% if session.title.startswith('Oral') %}
+                glyphicon-user
+              {% else %}
+                glyphicon-list-alt
+              {% endif %}"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">{{ session.title }}</h4>
+              <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 11 hours ago via Twitter</small></p>
+            </div>
+            <div class="timeline-body">
+                <table class="table">
+                    {% for publication in session.publications %}
+                    <tr>
+                        <td>
+                            <a href="articles/{{ publication.pdf }}">{{ publication.title }}</a><br />
+                            <em>{{ publication.authors }}</em>
+                    </td></tr>
+                    {% endfor %}
+                </table>
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+
+</body>
+</html>
