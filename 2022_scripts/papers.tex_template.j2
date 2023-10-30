@@ -1,0 +1,12 @@
+\BLOCK{ for section in sections -}
+
+\thispagestyle{empty}\cleardoublepage
+\addcontentsline{toc}{section}{\VAR{section["name"]}}
+\includepdf[pages=\VAR{section["titlepage"]},pagecommand=\thispagestyle{empty}]{external/12_Papers_SectionDividers.pdf}%
+\thispagestyle{empty}\cleardoublepage
+
+\BLOCK{ for p in section["papers"] -}
+\includepaper{\VAR{p["title"]}}{\VAR{p["authors"]}}{\VAR{p["file"]}}
+\BLOCK{ endfor }
+
+\BLOCK{ endfor }
