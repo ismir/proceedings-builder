@@ -8,11 +8,11 @@ import jinja2
 # We make a custom jinja environment with different keyword strings so that we can write
 # mostly normal tex in the template
 latex_jinja_env = jinja2.Environment(
-    block_start_string='\BLOCK{',
+    block_start_string=r'\BLOCK{',
     block_end_string='}',
-    variable_start_string='\VAR{',
+    variable_start_string=r'\VAR{',
     variable_end_string='}',
-    comment_start_string='\#{',
+    comment_start_string=r'\#{',
     comment_end_string='}',
     line_statement_prefix='%-',
     line_comment_prefix='%#',
@@ -58,7 +58,7 @@ def main(jsonfile, orderfile, outputfile):
     for i, section in enumerate(paper_order, 1):
         sections_context.append(build_section(section, i, papers))
 
-    template = latex_jinja_env.get_template('papers.tex_template.j2')
+    template = latex_jinja_env.get_template('templates/papers.tex')
 
     try:
         with codecs.open(outputfile, "w", "utf-8") as fp:

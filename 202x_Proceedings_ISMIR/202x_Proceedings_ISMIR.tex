@@ -1,67 +1,48 @@
 % ISMIR 202x Proceedings
 
-\documentclass{confproc}
-%\usepackage{url}
-\usepackage[utf8]{inputenc}
-\usepackage{multicol}
-\usepackage{setspace}
-\usepackage{mathptmx}  % Use times font for text and math
-\usepackage{authorindex}
-\usepackage[hidelinks]{hyperref}
+\documentclass[dvipsnames]{ismirproc}
 
-\newcommand{\includeabstract}[4]{\addcontentsline{toc}{subsection}{#1\\\textit{#2}}
-  \subsection*{#1\\\textit{#2}}
-  #3
-
-  #4}
-
-% Include fonts from embedded pdfs even if they already exist
-% http://tex.stackexchange.com/q/162711/97428
-\pdfinclusioncopyfonts 1
-\pdfminorversion=7
+\newcommand*{\proctitle}{Proceedings of the 24th International Society for Music Information Retrieval Conference, Milan, Italy, Nov 5-9, 2023}
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Front pages
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+\pagestyle{empty}
 % include first page without headers
 \pagenumbering{gobble}
-\includepdf[pages=-,pagecommand=\thispagestyle{empty}]{external/01_Cover.pdf}%
-%\thispagestyle{empty}\cleardoublepage
+\includepdf[pages=-]{external/2023_Cover.pdf}%
+\input{imprint.tex}
 
-\includepdf[pages=-,pagecommand=\thispagestyle{empty}]{external/02_Imprint.pdf}
-%\thispagestyle{empty}\cleardoublepage
+\frontmatter
 
-%begin roman numbering after cover page and imprint page
-\pagenumbering{roman}
+\titleformat*{\section}{\sffamily\bfseries\centering\Huge}
+\titleformat*{\subsection}{\sffamily\bfseries\centering\LARGE}
+\cleardoublepage
+\input{logos.tex}
+%\titleformat*{\chapter}{\sffamily\bfseries\huge} % format ToC as section
+\titleformat*{\section}{\sffamily\bfseries\huge}
+\titleformat*{\subsection}{\sffamily\bfseries\Large}
+\titlespacing{\paragraph}{0pt}{0pt}{1ex}
 
-\includepdf[pages=-,pagecommand=\thispagestyle{empty}]{external/03a_Logos_Organizers.pdf}%
-\includepdf[pages=-,pagecommand=\thispagestyle{empty}]{external/03b_Logos_Sponsors.pdf}%
+\cleardoublepage
+\pagestyle{fancy}
+\input{organizers.tex}
 
-\thispagestyle{empty}\cleardoublepage
-
-\includepdf[pages=-,pagecommand=\thispagestyle{fancy}]{external/04_ConferenceChairs.pdf}%
-\thispagestyle{empty}\cleardoublepage
-
-\includepdf[pages=-,pagecommand=\thispagestyle{fancy}]{external/05_ProgramCommittee.pdf}%
-\thispagestyle{empty}\cleardoublepage
+\cleardoublepage
+\input{committee.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Preface
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\addcontentsline{toc}{section}{Preface}
-\includepdf[pages=-,pagecommand=\thispagestyle{fancy}]{external/06_Preface.pdf}%
-\thispagestyle{empty}\cleardoublepage
+\cleardoublepage
+\input{preface.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Table of contents
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\addcontentsline{toc}{section}{Table of Contents}
-%\renewcommand{\contentsname}{Table of Contents}
-\thispagestyle{empty}\cleardoublepage
+\cleardoublepage
+\renewcommand{\contentsname}{Table of Contents}
 \begin{spacing}{1.175}
 \tableofcontents
 \end{spacing}
@@ -69,42 +50,49 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Start Page Numbers
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%
-\thispagestyle{empty}\cleardoublepage
-\pagenumbering{arabic}
+\mainmatter
 
+% Chapter divider layout
+\titleclass{\chapter}{page}
+\titleformat
+    {\chapter} % command
+    [display] % shape
+    {\sffamily\bfseries\Huge} % format
+    {\raggedleft {\chaptername} \thechapter} % label
+    {0pt} % sep
+    {\thispagestyle{empty}\raggedleft} % before-code
+    [{\titlerule[2pt]}] % after-code
+\titlespacing*{\chapter}{0pt}{7.2cm}{0pt}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Keynote Talks
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\thispagestyle{empty}\cleardoublepage
+\cleardoublepage
 \input{keynotes.tex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Tutorials
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\thispagestyle{empty}\cleardoublepage
+\cleardoublepage
 \input{tutorials.tex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% Papers & Sessions
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\thispagestyle{empty}\cleardoublepage
+\cleardoublepage
 \input{papers.tex}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Author Index
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\thispagestyle{empty}\cleardoublepage
-\includepdf[pages=-,pagecommand=\thispagestyle{empty}]{external/13_AuthorIndex_SectionDivider.pdf}
-\thispagestyle{empty}\cleardoublepage
-\section*{Author Index}
-\addcontentsline{toc}{section}{Author Index}
-\begin{multicols}{2}
+\backmatter
+\cleardoublepage
+\chapter*{Author Index}
+\cleardoublepage
+\begin{multicols}{2}\raggedcolumns
 \printauthorindex
 \end{multicols}
 

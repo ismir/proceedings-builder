@@ -1,0 +1,11 @@
+\BLOCK{ for section in sections -}
+
+\chapter*{Papers -- \VAR{section["name"]}}
+\cleardoublepage
+
+\BLOCK{ for p in section["papers"] -}
+\includepaper{\VAR{p["title"]}}{\VAR{p["authors"]}}{\VAR{p["file"]}}
+\BLOCK{ endfor }
+
+\cleardoublepage
+\BLOCK{ endfor }

@@ -1,0 +1,17 @@
+articles/
+camera_ready/
+metadata_final/
+pdf-metadata-correspondence/
+split_articles/
+*.ain
+*.out
+*.synctex.gz
+*.toc
+20??_Proceedings_ISMIR.pdf
+*.csv
+*.txt
+paper-metadata.json
+paper-metadata-split.json
+committee.tex
+papers.tex
+session-order.json
