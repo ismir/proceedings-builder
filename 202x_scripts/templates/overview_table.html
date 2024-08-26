@@ -14,7 +14,7 @@
 <tr>
     <td>
         <a href="{{ publication.ee }}">{{ publication.title }}</a><br />
-        <em>{{ publication.authors }}</em>
+        <em>{{ publication.author|join(", ") }}</em>
     </td>
 </tr>
 {% endfor %}

@@ -30,8 +30,8 @@
                     {% for publication in session.publications %}
                     <tr>
                         <td>
-                            <a href="articles/{{ publication.pdf }}">{{ publication.title }}</a><br />
-                            <em>{{ publication.authors }}</em>
+                            <a href="articles/{{ publication.ee.split("/")[-1] }}">{{ publication.title }}</a><br />
+                            <em>{{ publication.author|join(", ") }}</em>
                     </td></tr>
                     {% endfor %}
                 </table>
