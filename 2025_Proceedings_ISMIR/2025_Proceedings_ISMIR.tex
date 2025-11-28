@@ -1,0 +1,128 @@
+% ISMIR 2025 Proceedings
+
+\documentclass[dvipsnames]{ismirproc}
+\usepackage{CJKutf8}
+\usepackage{tikz}
+
+% Full title for imprint
+\newcommand*{\proctitle}{Proceedings of the 26th International Society for Music Information Retrieval Conference, Daejeon, Korea, September 21--25, 2025}
+
+% Shorter title for running headers
+\newcommand*{\procshort}{Proceedings of the 26th ISMIR Conference, Daejeon, Korea, 2025}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Front pages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagestyle{empty}
+% include first page without headers
+\pagenumbering{gobble}
+\includepdf[pages=-,
+  pagecommand={
+    \begin{tikzpicture}[remember picture,overlay]
+      \node[anchor=south east, text=white, text width=8cm, align=right, font=\sffamily] 
+        at ([xshift=-1.8cm,yshift=2cm]current page.south east) {
+        \begin{minipage}{8cm}
+        \raggedleft
+        {\fontsize{18}{22}\selectfont\textbf{International}}\\[0.1em]
+        {\fontsize{18}{22}\selectfont\textbf{Society for}}\\[0.1em]
+        {\fontsize{18}{22}\selectfont\textbf{Music Information}}\\[0.1em]
+        {\fontsize{18}{22}\selectfont\textbf{Retrieval}}\\[0.1em]
+        {\fontsize{18}{22}\selectfont\textbf{Conference}}\\[0.5em]
+        {\fontsize{36}{44}\selectfont\textbf{ISMIR 2025}}\\[0.8em]
+        {\fontsize{16}{20}\selectfont September 21--25, 2025}\\[0.3em]
+        {\fontsize{16}{20}\selectfont Daejeon, Korea}\\[0.3em]
+        {\fontsize{16}{20}\selectfont and Online}\\[1.2em]
+        {\fontsize{24}{30}\selectfont\textbf{Proceedings}}
+        \end{minipage}
+      };
+    \end{tikzpicture}
+  }
+]{external/2025_Cover.pdf}%
+\input{imprint.tex}
+
+\frontmatter
+
+\titleformat*{\section}{\sffamily\bfseries\centering\Huge}
+\titleformat*{\subsection}{\sffamily\bfseries\centering\LARGE}
+\cleardoublepage
+\input{logos.tex}
+%\titleformat*{\chapter}{\sffamily\bfseries\huge} % format ToC as section
+\titleformat*{\section}{\sffamily\bfseries\huge}
+\titleformat*{\subsection}{\sffamily\bfseries\Large}
+\titlespacing{\paragraph}{0pt}{0pt}{1ex}
+
+\cleardoublepage
+\pagestyle{fancy}
+\input{organizers.tex}
+
+\cleardoublepage
+\input{committee.tex}
+
+\cleardoublepage
+\input{awards.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preface
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\input{preface.tex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Table of contents
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\renewcommand{\contentsname}{Table of Contents}
+\begin{spacing}{1.175}
+\tableofcontents
+\end{spacing}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Start Page Numbers
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\mainmatter
+
+% Chapter divider layout
+\titleclass{\chapter}{page}
+\titleformat
+    {\chapter} % command
+    [display] % shape
+    {\sffamily\bfseries\Huge} % format
+    {\raggedleft {\chaptername} \thechapter} % label
+    {0pt} % sep
+    {\thispagestyle{empty}\raggedleft} % before-code
+    [{\titlerule[2pt]}] % after-code
+\titlespacing*{\chapter}{0pt}{7.2cm}{0pt}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Keynote Talks
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\input{keynotes.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Tutorials
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\input{tutorials.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Papers & Sessions
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\cleardoublepage
+\input{papers.tex}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Author Index
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\backmatter
+\cleardoublepage
+\chapter*{Author Index}
+\begin{multicols}{2}\raggedcolumns
+\printauthorindex
+\end{multicols}
+
+\end{document}

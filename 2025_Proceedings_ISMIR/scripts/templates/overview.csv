@@ -1,0 +1,2 @@
+{% for session in sessions %}{% for publication in session.publications %}{{ publication.extra.session_id }},{{ publication.extra.session_position }},{{ publication.extra.split_file|truncate(6,killwords=True,end='',leeway=0)|int }},{{ publication.extra.submission_id }},"{{ publication.ee }}","{{ publication.title }}","{{ publication.author|join(", ") }}"
+{% endfor %}{% endfor %}

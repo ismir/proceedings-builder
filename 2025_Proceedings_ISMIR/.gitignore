@@ -1,0 +1,45 @@
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.ain
+*.idx
+*.ind
+*.ilg
+
+# Generated PDFs (except cover)
+2025_Proceedings_ISMIR.pdf
+*.pdf
+!external/*.pdf
+!articles/*.pdf
+!logos/*.pdf
+
+# Generated files
+papers.tex
+paper-metadata.json
+paper-metadata-split*.json
+session-order.json
+
+# Output directories
+split_articles*/
+archival_outputs*/
+camera_ready*/
+metadata_final*/
+output*/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Metadata (generated from source CSVs)
+cmt-metadata.csv
+cmt-metadata-filtered.csv
+
+# Logs
+*.log
+compile.log
+metadata_gen.log
+split*.log
