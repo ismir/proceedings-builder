@@ -175,6 +175,6 @@ After these six steps,
 
 `../202x_Proceedings_ISMIR/split_articles` will contain the final paper PDFs
 
-These are used as inputs to archiving the final proceedings *after* the conference on archives.ismir.net and Zenodo. Start from https://github.com/ismir/conference-archive/tree/master/202x_archive/README.md
+These are used as inputs to archiving the final proceedings *after* the conference on archives.ismir.net and Zenodo. Start from https://github.com/ismir/conference-archive/
 
 *Before* the conference, the `overview.csv` file needs to be send to the web team as input to the MiniConf `ismir202xprogram.ismir.net` site and the `split_articles` folder needs to be sent to the ISMIR webmaster for upload on `archives.ismir.net`, which MiniConf uses to embed the PDFs on its pages.
